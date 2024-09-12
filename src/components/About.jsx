@@ -38,11 +38,8 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
     
-      <motion.p 
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-         An organized and motivated student majoring in IT. Seeking to enter the IT industry. Dedicated worker aiming to find an opportunity to work in a dynamic, challenging environment, where I can utilize my skills to develop my career and for the growth of the organization.
+      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+      I’m a dynamic young developer with a track record of building projects across different technologies. Eager to learn and take on new challenges, I’m excited to bring my skills and enthusiasm to new opportunities.
       </motion.p>
 
       <div className='m-20 flex flex-wrap gap-10'>

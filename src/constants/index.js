@@ -1,30 +1,22 @@
 import {
-    mobile,
     backend,
+    desktop,
     game,
-    creator,
     web,
-    javascript,
-    typescript,
+    net,
+    reactjs,
     html,
     css,
-    reactjs,
-    redux,
+    javascript,
+    typescript,
     tailwind,
-    nodejs,
-    mongodb,
+    mssql,
     git,
     figma,
     docker,
-    meta,
-    starbucks,
+    visplus,
     telekom,
-    tesla,
-    shopify,
     carrent,
-    jobit,
-    tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -48,12 +40,12 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
+    },
+    {
+      title: "Desktop App Developer",
+      icon: desktop,
     },
     {
       title: "Game Developer",
@@ -63,11 +55,19 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
+      name: ".NET",
+      icon: net,
+    },
+    {
+      name: "React",
+      icon: reactjs,
+    },
+    {
+      name: "HTML",
       icon: html,
     },
     {
-      name: "CSS 3",
+      name: "CSS",
       icon: css,
     },
     {
@@ -79,27 +79,19 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Tailwind CSS",
+      name: "Tailwind",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "MS SQL",
+      icon: mssql,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
     {
@@ -109,6 +101,19 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Software developer",
+      company_name: "VIS Plus s.r.o.",
+      icon: visplus,
+      iconBg: "#383E56",
+      date: "May 2023 - Present",
+      points: [
+        "Developing software solutions using .NET (C#, VB.NET) and WinForms for desktop applications",
+        "Focusing on MS SQL for effective data management",
+        "Experience with developing ERP system",
+        "Communication with a customer",
+      ]
+    },
     {
       title: "React.js Developer",
       company_name: "DEUTSCHE TELEKOM",

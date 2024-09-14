@@ -46,7 +46,7 @@ const Contact = () => {
           name: '',
           email: '',
           message: '',
-        })
+        });
       }, (error) => {
         setLoading(false)
 

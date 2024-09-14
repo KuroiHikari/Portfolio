@@ -1,7 +1,5 @@
 import {
     backend,
-    desktop,
-    game,
     web,
     net,
     reactjs,
@@ -16,7 +14,11 @@ import {
     docker,
     visplus,
     telekom,
-    carrent,
+    carhub,
+    cashflare,
+    pulse,
+    sumsnap,
+    software,
   } from "../assets";
   
   export const navLinks = [
@@ -44,12 +46,8 @@ import {
       icon: backend,
     },
     {
-      title: "Desktop App Developer",
-      icon: desktop,
-    },
-    {
-      title: "Game Developer",
-      icon: game,
+      title: "Software Developer",
+      icon: software,
     },
   ];
   
@@ -129,76 +127,79 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
-      name: "AI Summarizer",
-      description:
-        "An open-source article summarizer that transforms lengthy articles into clear and concise summaries",
+      name: "Pulse",
+      description:"Pulse is an experimental Next.js project styled with Tailwind CSS, exploring modern web development techniques and next-gen web elements.",
       tags: [
         {
           name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "clientbased",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: pulse,
+      source_code_link: "https://github.com/KuroiHikari/Pulse",
     },
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      name: "CashFlare",
+      description:"Financial web app that lets users search companies, add them to a portfolio, and view detailed financial data like profiles, income statements, and balance sheets.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "api",
+          color: "cyan-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mssql",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: cashflare,
+      source_code_link: "https://github.com/KuroiHikari/CashFlare",
+    },
+    {
+      name: "CarHub",
+      description: "This Next.js web app lets users search and explore car models, view detailed specs, and generate images from different angles, using data from various RapidAPI sources.",
+      tags: [
+        {
+          name: "next.js",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "api",
+          color: "cyan-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: carhub,
+      source_code_link: "https://github.com/KuroiHikari/CarHub",
+    },
+    {
+      name: "SumSnap",
+      description:"Sumz is a web app that generates concise article summaries from a URL, helping users quickly grasp key info. Built with Vite.js and React for fast performance.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "cyan-text-gradient",
+        },
+      ],
+      image: sumsnap,
+      source_code_link: "https://github.com/KuroiHikari/SumSnap",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

@@ -33,7 +33,7 @@ Ensure that you have the following installed on your machine:
 
 #### 1. Clone the repository:
 ```bash
-git clone https://github.com/KuroiHikari/CashFlare.git
+git clone https://github.com/KuroiHikari/Portfolio.git
 ```
 
 #### 2. Set up the FrontEnd:
